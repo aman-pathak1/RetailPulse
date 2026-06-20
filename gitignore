@@ -1,0 +1,20 @@
+# Raw data - do not push
+data/online_retail_II.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (large files - optional, push only if <100MB)
+# models/lstm_demand_model.h5
